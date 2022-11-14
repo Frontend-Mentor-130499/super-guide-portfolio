@@ -1,0 +1,20 @@
+.inputWrapper.error {
+  position: relative;
+}
+
+.inputWrapper.error::after {
+  content: url('/images/error.svg');
+  position: absolute;
+  right: 1rem;
+  top: 0.75rem;
+}
+
+.inputWrapper.error::before {
+  content: 'Sorry, invalid format here';
+  color: #ff6f5b;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: -1.5rem;
+  right: 1rem;
+}

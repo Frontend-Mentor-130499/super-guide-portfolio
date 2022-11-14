@@ -1,9 +1,12 @@
-import Button from './button';
+import FormField from './textfield';
 
 export default function Home() {
   return (
     <>
-      <Button>CONTACT ME</Button>
+      <FormField
+        placeholder='name'
+        error={false}
+      />
     </>
   );
 }
