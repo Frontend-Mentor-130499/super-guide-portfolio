@@ -17,14 +17,13 @@ const FormField = ({ placeholder, error = true }: Props) => {
         type='text'
         placeholder={placeholder}
         className={cn(
-          'appearance-none',
+          'w-full',
           'bg-grey-900',
           'text-white',
           'uppercase',
           'px-5',
           'py-3',
           'pb-6',
-          'w-full',
           'border-b-1',
           'border-solid',
           'focus:outline-none',

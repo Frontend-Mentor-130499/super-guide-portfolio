@@ -6,7 +6,7 @@ interface Props {
 
 const Button = ({ children }: Props) => {
   return (
-    <button className='text-sm text-white underline decoration-green decoration-2 underline-offset-10 hover:text-green'>
+    <button className='w-fit text-[16px] tracking-widest text-white underline decoration-green decoration-2 underline-offset-10 hover:text-green uppercase'>
       {children}
     </button>
   );
