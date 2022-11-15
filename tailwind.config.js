@@ -26,9 +26,13 @@ module.exports = {
     },
     borderWidth: {
       1: '1px',
+      6: '6px',
     },
     textUnderlineOffset: {
       10: '10px',
+    },
+    textDecorationThickness: {
+      6: '6px',
     },
     extend: {},
   },
