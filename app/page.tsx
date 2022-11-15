@@ -1,12 +1,9 @@
-import FormField from './textfield';
+import Navbar from './navbar';
 
 export default function Home() {
   return (
     <>
-      <FormField
-        placeholder='name'
-        error={false}
-      />
+      <Navbar />
     </>
   );
 }
